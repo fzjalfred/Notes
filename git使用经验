@@ -1,0 +1,10 @@
+
+#多条commit合并
+
+git reabase -i eb2373d99ae33d469607b37726a551c167a269ff
+pick换成s
+git push -f -u origin ...
+
+
+git rebase -i [现commit ID] [目标commit ID]
+
